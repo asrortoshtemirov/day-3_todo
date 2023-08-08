@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputs {
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid aqua;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.btn {
+  border: 2px solid aqua;
+  padding: 7px 20px;
+  border-radius: 10px;
+  color: #877bcb;
+  font-weight: 700;
+  background-color: rgb(236, 249, 245);
+  &:hover{
+    color: #fff;
+    background-color: rgb(143, 247, 212);
+    border-color: aqua;
+  }
+}
